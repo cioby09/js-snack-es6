@@ -40,7 +40,7 @@ const bikesList = document.querySelector(".bikes");
     const name = bikesArray.map(element=> element.name);
     const weight = bikesArray.map(element=> element.weight);
 
-    const bikeItem = 
+    const bikeItem =
     `<div class="bike-item">
         <h1>Nome modello: ${name[i]}</h1>
         <h2>Peso: ${weight[i]} kg</h2>
